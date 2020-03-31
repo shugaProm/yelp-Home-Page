@@ -1,0 +1,2911 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.navigationBar{
+    background-color: rgb(252, 250, 250);
+    display: inline-flex;
+    width: 100%;
+    margin: 0px;
+    height: 65px;
+}
+
+.firstNavContainer{
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.secondNavContainer{
+    display: inline-flex;
+    height: 65px;
+    width: 25%;
+}
+
+.thirdNavContainer{
+    display: inline-flex;
+    height: 65px;
+    width: 50%;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.hvacLogo{
+    width: 15%;
+    height: 34px;
+    padding-top: 5px;
+    padding-right: 13px;
+}
+
+.firstNavText{
+    padding-top: 0px;
+    padding-right: 32px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 85%;
+    margin-top: 14px;
+}
+
+.navLinkList{
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+}
+
+.repairFurnaceLink{
+    text-decoration: none;
+    font-size: 12px;
+    color: blue;
+    font-family: sans-serif;
+    padding-left: 205px;
+}
+
+.heatingLink{
+    font-size: 12px;
+    color: blue;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+
+.hvacLink{
+    font-size: 12px;
+    color: blue;
+    font-family: sans-serif;
+    text-decoration: none;
+}   
+
+.thirdNavContainer ul li :hover{
+    text-decoration: underline;
+}
+
+.backgroundImgDiv{
+    height: 100vh;
+    background-image: url('../images/l\(9\).jpg') !important;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;   
+}
+
+.controlDiv{
+    display: inline-flex;
+    width: 100%;
+    height: 80px;
+}
+
+.reviewEventsTalkContainer{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 27%;
+    padding-top: 35px;
+}
+
+.firstEmptyDiv{
+    width: 45%;
+}
+
+.reviewEventsTalkContainer a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: smaller;
+    height:25%;
+}
+
+.reviewEventsTalkContainer a:hover{
+    border-bottom: white 2px solid;
+    height: 25px;
+}
+
+.loginSignupContainer{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 28%;
+}
+
+.loginSignupContainer a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 27px;
+    width: 50px;
+}
+
+.loginSignupContainer a:nth-child(1){
+    padding-top: 35px;
+}
+
+.loginSignupContainer a:hover:nth-child(1){
+    border-bottom: white 2px solid;
+}
+
+.loginSignupContainer a:nth-child(2){
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 110px;
+    display: inline-flex;
+    justify-content: center;
+    height: 25px;
+    margin-top: 25px;
+}
+
+.signupBtn{
+    padding-top: 8px;
+}
+
+.loginSignupContainer a:hover:nth-child(2){
+    background-color: white;
+    color: rgb(100, 95, 95);
+    transition-duration: 1s;
+}
+
+.yelpLogoImage{
+    width: 100%;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+}
+
+.yelpLogoImageContainer{
+    width: 17%;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+
+
+/* some styles would later come in here before the ones  below*/
+
+.findBusinessContainer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(231, 230, 230);
+}
+
+.findBusinessContainerMain{
+    width: 40%;
+    height: 20%;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 460px;
+    padding-top: 8px;
+}
+
+.findBusinessText{
+    color: rgb(182, 64, 64);
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+.findBusinessText:hover{
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s
+}
+
+.findBusinessImagesContainer{
+    width: 100%;
+    height: 80%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.dentistContainer, .mobilePhoneRepairContainer, .hotelsContainer, .drycleanContainer {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    height: 82%;
+}
+
+.dentistImage{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.drycleanImage{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.hotelsImage{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.mobilePhoneRepairImage{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.dentistTextLink {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dentistTextLink:hover{
+    color: blue;
+}
+
+.dentistTextLink:visited{
+    color: purple;
+}
+
+.hotelsTextLink {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hotelsTextLink:hover{
+    color: blue;
+}
+
+.hotelsTextLink:visited{
+    color: purple;
+}
+
+.mobilePhoneRepairTextLink {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.mobilePhoneRepairTextLink:hover{
+    color: blue;
+}
+
+.mobilePhoneRepairTextLink:visited{
+    color: purple;
+}
+
+.drycleanTextLink {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.drycleanTextLink:hover{
+    color: blue;
+}
+
+.drycleanTextLink:visited{
+    color: purple;
+}
+
+.dentistTextLinkContainer{
+    width: 60px;
+    margin-top: -10px;
+    margin-left: 83px;
+}
+
+.hotelsTextLinkContainer{
+    width: 50px;
+    margin-top: -10px;
+    margin-left: 85px;
+}
+
+.mobilePhoneRepairTextLinkContainer{
+    width: 105px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+.drycleanTextLinkcontainer{
+    width: 70px;
+    margin-top: -10px;
+    margin-left: 75px;
+}
+
+.yelpSanFranciscoContainer{
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+}
+
+.yelpSanFranciscoTextContainer{
+    margin-top: 100px;
+    margin-left: 39%;
+    width: 205px;
+}
+
+.yelpSanFranciscoText{
+    font-size: 21px;
+    font-family: sans-serif;
+    color: rgb(202, 32, 32);
+}
+
+.yelpSanFranciscoText:hover{
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s
+}
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    90%{
+        opacity: 5;
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: 0px;
+    }
+}
+
+.citiesContainer{
+    width: 94%;
+    margin-top: -15px;
+    margin-left: 3%;
+    border-bottom: 1px solid rgb(136, 143, 139);
+}
+
+.citiesContainer ul{
+    display: inline-flex;
+    width: 75%;
+    justify-content: space-evenly;
+    padding-left: 135px;
+    list-style: none;
+}
+
+.citiesContainer ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(78, 58, 58);
+    font-size: 14px;
+}
+
+.citiesContainer ul li a:hover{
+    border-bottom: 3px solid brown;
+}
+
+.hotNewBusinessesContainer{
+    margin-top: -19px;
+    width: 100%;
+}
+
+.hotNewBusinessTextContainer{
+    width: 25%;
+    margin-left: 510px;
+    padding-top: 50px;
+}
+
+.hotNewBusinessTextContainer h3{
+    font-family: sans-serif;
+    color: brown;
+}
+
+.sundayGatherFamilyCafeFieryCafeContainer{
+    width: 100%;
+    margin-top: -18px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.sundayGatherContainer, .familyCafeContainer, .fieryCafeContainer{
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 136, 136);
+}
+
+.sundayGatherContainer img, .familyCafeContainer img, .fieryCafeContainer img{
+    height: 210px;
+    width: 290px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sundayGatherContainer a, .familyCafeContainer a, .fieryCafeContainer a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(88, 88, 241);
+    font-size: 16px;
+}
+
+.sundayGatherContainer h3, .familyCafeContainer h3, .fieryCafeContainer h3{
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.sundayGatherContainer div, .familyCafeContainer div, .fieryCafeContainer div{
+    margin-top: -15px;
+    padding-left: 15px;
+}
+
+.sundayGatherContainer p, .familyCafeContainer p, .fieryCafeContainer p{
+    margin-top: 0px;
+    line-height: 1.6em;
+    font-size: 15px;
+}
+
+.sundayGatherContainer i, .familyCafeContainer i, .fieryCafeContainer i {
+    color: red;
+}
+
+.opened6WeeksAgo{
+    font-size: 15px;
+    color: orangered;
+}
+
+.seeMoreHotAndNewBusinessesContainer{
+    width: 100%;
+    display: inline-flex;
+    height: 50px;
+}
+
+.seeMoreHotAndNewBusinessesContainer a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 525px;
+    margin-top: 15px;
+}
+
+.seeMoreHotAndNewBusinessesContainer a:hover{
+    text-decoration: underline;
+}
+
+.reviewOfTheDay_featuredCollection{  /* this contains styles for review of the day and featured collections headings. they are together*/
+    display: inline-flex;
+    width: 100%;
+    height: 55px;
+}
+
+.reviewOfTheDay{
+    width: 95%;
+}
+
+.reviewOfTheDay div{
+    width: 30%;
+    margin-left: 40%;
+}
+
+.featuredCollection{
+    width: 30%;
+}
+
+.reviewOfTheDay h3, .featuredCollection h3{
+    font-size: 18px;
+    color: rgb(189, 22, 22);
+}
+
+.reviewOfTheDay_featuredCollection_mainContainer{
+    width: 100%;
+    height: 350px;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+.reviewOfTheDay_mainContainer{
+    border: 1px solid rgb(182, 153, 153);
+    width: 55%;
+    height: 325px;
+    border-radius: 7px;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer{
+    width: 97%;
+    height: 93%;
+    margin: 10px;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer{
+    width: 100%;
+    display: inline-flex;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_reviewerImageContainer{
+    width: 10%;
+    height: 75px;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_reviewerImageContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview{
+    margin-left: 15px;
+    width: 40%;
+    font-size: 14px;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview_iconContainer{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 65%;
+    line-height: 3;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview div a{
+    text-decoration: none;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview div a:hover{
+    text-decoration: underline;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview_iconContainer :nth-child(3) :nth-child(1){
+    color: orangered;
+}
+
+.reviewOfTheDay_mainContainer_primaryContainer_secondaryContainer_theReview_iconContainer p{
+    color: gray;
+}
+
+.reviewOftheDay_with_image_to_the_right_end{  /* contains the review if the dat text with an inage to the far right end*/
+    width: 100%;
+    height: 55px;
+}
+
+.reviewOftheDay_with_image_to_the_right_end_mainContainer{
+    height: 25px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color: rgb(185, 224, 241);
+    margin-top: 18px;
+}
+
+.reviewOftheDay_with_image_to_the_right_end_mainContainer_textContainer{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgb(63, 61, 61);
+}
+
+.reviewOftheDay_with_image_to_the_right_end_mainContainer_imageContainer{
+    margin-top: -7px;
+}
+
+.icon_and_date_container{  /* contains the icon rating and date for which it was carried out*/
+    width: 100%;
+    height: 50px;
+}
+
+.icon_and_date_container_mainContainer{
+    width: 190px;
+    height: 25px;
+    margin-top: 7px;
+}
+
+.icon_and_date_container_mainContainer i{
+    color: red !important;
+}
+
+.icon_and_date_container_mainContainer :nth-child(2){
+    color: gray;
+}
+
+.lengthyText_with_continueReadingLInkContainer{
+    width: 100%;
+    height: 110px;
+    margin-top: -35px;
+}
+
+.lengthyText_with_continueReadingLInkContainer p{
+    font-size: 15px;
+    color: rgb(51, 42, 42);
+    line-height: 1.5em;
+}
+
+.lengthyText_with_continueReadingLInkContainer p a{
+    text-decoration: none;
+    color: rgb(36, 142, 184);
+}
+
+.lengthyText_with_continueReadingLInkContainer p a:hover{
+    text-decoration: underline;
+}
+
+.readPreviousReviews_linkContainer{ /* contains the link read previous reviews*/
+    width: 100%;
+    height: 50px;
+}
+
+.readPreviousReviews_linkContainer div {
+    width: 30%;
+    margin: 10px auto;
+    padding-top: 5px;
+}
+
+.readPreviousReviews_linkContainer div p a{
+    text-decoration: none;
+    color: rgb(36, 142, 184);
+}
+
+.readPreviousReviews_linkContainer div p a:hover{
+    text-decoration: underline;
+}
+
+.featuredCollection_mainContainer{
+    border: 1px solid rgb(182, 153, 153);
+    width: 25%;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.featuredCollection_mainContainer_primaryContainer{
+    width: 92%;
+    height: 320px;
+    margin: 10px;
+}
+
+.romanticRestaurantSF_mainContainer, .onlyInSF_mainContainer, .SFTiki_mainContainer{
+    height: 33%;
+    width: 100%;
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer{
+    height: 98px;
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 212, 212);
+    display: inline-flex;
+
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer_imageContainer{
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer_imageContainer img{
+    border-radius: 6px;
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer :nth-child(2){
+    margin-left: 10px;
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer a{
+    text-decoration: none;
+    color: rgb(62, 62, 200);
+    font-size: 15px;
+}
+
+.romanticRestaurantSF_mainContainer_primaryCOntainer a:hover{
+    text-decoration: underline;
+}
+.monicaH_11_Container{
+    margin-top: 30px;
+}
+
+.onlyInSF_mainContainer_primaryContainer{
+    height: 98px;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    display: inline-flex;
+}
+
+.onlyInSF_mainContainer_primaryContainer a{
+    text-decoration: none;
+    color: rgb(47, 47, 209);
+    font-size: 15px;
+}
+
+.onlyInSF_mainContainer_primaryContainer a:hover{
+    text-decoration: underline;
+}
+
+.onlyInSF_mainContainer_primaryContainer :nth-child(2){
+    margin-left: 10px;
+}
+
+.onlyInSF_mainContainer_primaryContainer_imageContainer{
+    height: 90px !important;
+    width: 90px;
+    border-radius: 6px;
+}
+
+.onlyInSF_mainContainer_primaryContainer_imageContainer img{
+    border-radius: 6px;
+}
+
+.arpanaV_18_Container{
+    margin-top: 50px;
+}
+
+.arpanaV_18_Container span, .veronicaS_9_Container span, .monicaH_11_Container span {
+    color: grey;
+}
+
+.SFTiki_mainContainer_primaryContainer{
+    height: 98px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.SFTiki_mainContainer_primaryContainer :nth-child(2){
+    margin-left: 10px;
+}
+
+.SFTiki_mainContainer_primaryContainer a{
+    text-decoration: none;
+    color: rgb(53, 53, 218);
+    font-size: 15px;
+}
+
+.SFTiki_mainContainer_primaryContainer a:hover{
+    text-decoration: underline;
+}
+
+.SFTiki_mainContainer_primaryContainer_imageContainer{
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+}
+
+.SFTiki_mainContainer_primaryContainer_imageContainer img{
+    border-radius: 6px;
+}
+
+.veronicaS_9_Container{
+    padding-top: 50px;
+}
+
+.browseMoreCollection{
+    margin-top: 40px;
+}
+
+.browseMoreCollection div{
+    width: 57%;
+    margin-left: 70px;
+}
+
+.browseMoreCollection div a{
+    text-decoration: none;
+    color: rgb(83, 83, 245);
+}
+
+.browseMoreCollection div a:hover{
+    text-decoration: underline;
+}
+
+.long_home_container_recentActivityContainer_andOtherContents{
+    width: 87%;
+    padding-top: 110px;
+    margin: auto;
+    height: auto;
+}
+
+.recentActivity_TextContainer{
+    width: 25%;
+    margin-left: 38%;
+}
+
+.recentActivity_TextContainer h2{
+    color: #d32323;
+}
+
+.long_home_container_mainContents_container_arrangeFirst_3units{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.first_unit_container{
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 490px;
+}
+
+.second_unit_container{
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 460px;
+}
+
+.third_unit_container{
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 490px;
+}
+
+.first_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.first_unit_container_image_and_span_container_spacer{
+    margin: 13px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.first_unit_container_image_container{
+    width: 35px;
+    border-radius: 5px;
+}
+
+.first_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.first_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.first_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.first_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.first_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.beyond_the_binary_coaching_container_firstUnit{
+    height: 35px;
+    margin-top: 25px;
+}
+
+.beyond_the_binary_coaching_container_firstUnit a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.beyond_the_binary_coaching_container_firstUnit a:hover{
+    text-decoration: underline;
+}
+
+.beyond_the_binary_coaching_theCoachImageContainer{
+   width: 100%;
+   margin-top: 50px;
+}
+
+.beyond_the_binary_coaching_theCoachImageContainer img{
+     width: 100%;
+}
+
+.like_button_of_first_unit_container{
+    height: 40px;
+}
+
+.like_button_of_first_unit_container div{
+    height: fit-content;
+    width: 16%;
+    padding-left: 8px;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.like_button_of_first_unit_container a{
+    color: rgb(126, 103, 103);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.like_button_of_first_unit_container a:hover{
+    color: #0073bb;
+    text-decoration: none;
+}
+
+.second_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+.second_unit_container_image_and_span_container_spacer{
+    margin: 13px;
+    height: 47px;
+}
+
+.second_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.second_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.second_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.second_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.danielK_image_container{
+    width: 100%;
+    height: 145px;
+    margin-top: -8px;
+}
+
+.danielK_image_container img{
+    width: 100%;
+    height: 145px;
+}
+
+.elite_perk_container_spacer{
+    margin: 0px 10px 10px 10px;
+    height: 270px;
+}
+.elite_perk_linkContainer{
+    height: 45px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.elite_perk_linkContainer div{
+    padding-top: 15px;
+}
+
+.elite_perk_linkContainer div a{
+     text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.elite_perk_linkContainer div a:hover{
+    text-decoration: underline;
+}
+
+.below_elite_perk_starRatingsContainer{
+    height: 36px;
+    width: 100%;
+}
+
+.below_elite_perk_starRatingsContainer div{
+    padding-top: 10px;
+}
+
+.below_elite_perk_starRatingsContainer i{
+    color: red;
+}
+
+.below_elite_perk_mainTextContainer{
+    height: 123px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 1.3em;
+    font-size: 15px;
+}
+
+.below_elite_perk_mainTextContainer a{
+    text-decoration: none;
+    color: #0073bb;
+}
+
+.below_elite_perk_mainTextContainer a:hover{
+    text-decoration: underline;
+}
+
+.below_elite_perk_smiley_faces_container{    /* some styles should come in here for the smiley faces that i have not inputted*/
+    height: 30px;
+    margin-top: 12px;
+}
+
+.second_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.second_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+
+/* the third unit styles begins here*/
+.third_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+.third_unit_container_image_and_span_container_spacer{
+    margin: 13px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.third_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.third_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.third_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.third_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.third_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.third_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.askinsJH_Co_text_container{
+    margin-top: 18px;
+}
+
+.askinsJH_Co_text_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.askinsJH_Co_text_container a:hover{
+    text-decoration: underline;
+}
+
+.askinsJH_Co_image_container{
+    margin-top: 45px;
+    width: 100%;
+}
+
+.askinsJH_Co_image_container img{
+    width: 100%;
+}
+
+.like_button_of_third_unit_container{
+    margin-top: 360px;
+}
+
+.like_button_of_third_unit_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.like_button_of_third_unit_container a:hover{
+    text-decoration: underline;
+    color: #0073bb;
+}
+
+
+.long_home_container_mainContents_container_arrangeSecond_3units{  /*the second 3units styles begin here*/
+    width: 100%;
+    height: 600px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.fourth_unit_container{
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 445px;
+}
+
+.fourth_unit_container_image_and_span_container_spacer{
+    margin: 13px;
+    height: 47px;
+}
+
+.fourth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.fourth_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.fourth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fourth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.fourth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.fourth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.fourth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.oaktown_spice_shop_image_container{
+    width: 100%;
+    height: 145px;
+    margin-top: -8px;
+}
+
+.oaktown_spice_shop_image_container img{
+    width: 100%;
+    height: 145px;
+}
+
+.oaktown_spice_shop_container_spacer{
+    margin: 0px 10px 10px 10px;
+    height: 270px;
+}
+
+.oaktown_spice_shop_link_container{
+    padding-top: 15px;
+}
+
+.oaktown_spice_shop_link_container div{
+    height: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.oaktown_spice_shop_link_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.oaktown_spice_shop_link_container div a:hover{
+    text-decoration: underline;
+}
+
+.below_oaktown_spice_shop_starRatingContainer{
+    height: 36px;
+    width: 100%;
+}
+
+.below_oaktown_spice_shop_starRatingContainer div{
+    padding-top: 10px;
+}
+
+.below_oaktown_spice_shop_starRatingContainer div i{
+    color: red;
+}
+
+.below_oaktown_Spice_Shop_mainTextContainer{
+    height: 110px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 1.3em;
+    font-size: 15px;
+    color: #524b4b; 
+}
+
+.below_oaktown_spice_shop_smiley_faces_conntainer{
+    margin-top: 12px;
+}                                                            /*fouth unit styles ends here*/
+
+
+
+
+
+.fifth_unit_container{  /*fifth unti styles begins here */
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 300px;
+    margin-top: -30px;
+}
+
+.fifth_unit_container_image_and_span_container_spacer{
+    margin: 7px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.fifth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.fifth_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.fifth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fifth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.fifth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.fifth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.fifth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.hashes_and_brews_text_container{
+    height: 45px;
+}
+
+.hashes_and_brews_text_container div{
+    padding-top: 15px;
+}
+
+.hashes_and_brews_text_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.hashes_and_brews_text_container div a:hover{
+    text-decoration: underline;
+}
+
+.hashes_and_brews_main_image_container{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;   
+}
+
+.hashes_and_brews_first_image_container, .hashes_and_brews_second_image_container{
+    width: 152px;
+    height: 190px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.hashes_and_brews_first_image_container img, .hashes_and_brews_second_image_container img{
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+
+.hashes_and_brews_first_image_container div, .hashes_and_brews_second_image_container div{
+    margin: 8px;
+}
+
+.hashes_and_brews_first_image_container div a, .hashes_and_brews_second_image_container div a{
+    text-decoration: none;
+    color: #524b4b;
+    font-size: 15px;
+}
+
+.hashes_and_brews_first_image_container div a:hover, .hashes_and_brews_second_image_container div a:hover{ 
+    color: #0073bb;
+}
+
+
+
+.sixth_unit_container{    /* the sixth unit styles begins here*/
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 565px;
+}
+
+.sixth_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.sixth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.sixth_unit_container_image_container{
+    width: 38px;
+    border-radius: 7px;
+}
+
+.sixth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.sixth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.sixth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.sixth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.sixth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.third_culture_bakery_text_container{
+    height: 45px;
+}
+
+.third_culture_bakery_text_container div{
+    padding-top: 15px;
+}
+
+.third_culture_bakery_text_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.third_culture_bakery_text_container div a:hover{
+    text-decoration: underline;
+}
+
+.third_culture_bakery_image_and_likeButton_container{
+    height: 210px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.third_culture_bakery_image_and_likeButton_container div{
+    widows: 100%;
+    height: 165px;
+}
+
+.third_culture_bakery_image_and_likeButton_container div img{
+    width: 100%;
+    height: 165px;
+}
+
+.third_culture_bakery_image_and_likeButton_container :nth-child(2){
+    height: 27px;
+    width: 70px;
+    margin: 14px 0px 0px 10px;
+}
+
+.third_culture_bakery_image_and_likeButton_container :nth-child(2) a{
+    text-decoration: none;
+    color: #524b4b;
+    font-size: 15px;
+}
+
+.third_culture_bakery_image_and_likeButton_container :nth-child(2) a:hover{
+    color: #0073bb;
+}
+
+.below_third_culture_bakery_images_and_likeButtons_container_with_2Containers{
+    height: 195px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.below_third_culture_bakery_first_image_container, .below_third_culture_bakery_second_image_container{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+}
+
+.below_third_culture_bakery_first_image_container :nth-child(2), .below_third_culture_bakery_second_image_container :nth-child(2){
+    width: 100%;
+    height: 42px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.below_third_culture_bakery_first_image_container :nth-child(2) div, .below_third_culture_bakery_second_image_container :nth-child(2) div{
+    margin: 8px;
+}
+
+.below_third_culture_bakery_first_image_container div img, .below_third_culture_bakery_second_image_container div img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.below_third_culture_bakery_images_and_likeButtons_container_with_2Containers div a{  /*this sytles the two like buttons in the sixth unit*/
+    text-decoration: none;
+    color: #524b4b;
+    font-size: 15px;
+}
+
+.below_third_culture_bakery_images_and_likeButtons_container_with_2Containers div a:hover{
+    color: #0073bb;
+}
+
+.show_all_5_photos_below_third_culture{
+    height: 50px;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 88px;
+}
+
+.show_all_5_photos_below_third_culture a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.show_all_5_photos_below_third_culture a:hover{
+    text-decoration: underline;
+}
+
+
+/*the first column 2units begins here*/
+
+.long_home_container_mainContents_container_first_column_2units{
+    height: fit-content;
+    width: 30%;
+    margin-top: -110px;
+}
+
+.seventh_unit_container{
+    height: 300px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.seventh_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+    border-bottom : 1px solid #e6e6e6;
+}
+
+.seventh_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.seventh_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.seventh_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.seventh_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.seventh_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.seventh_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.seventh_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.local_cafe_with_split_container_and_2_addedimages_linkContainer{
+    height: 45px;
+}
+
+.local_cafe_with_split_container_and_2_addedimages_linkContainer div{
+    padding-top: 18px;
+}
+
+.local_cafe_with_split_container_and_2_addedimages_linkContainer div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.local_cafe_with_split_container_and_2_addedimages_linkContainer div a:hover{
+    text-decoration: underline;
+}
+
+.local_cafe_container_with_2_added_images{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 195px;
+    margin-top: 0px;
+}
+
+.local_cafe_container_with_2_added_images_firstImage_container, .local_cafe_container_with_2_added_images_secondImage_container{
+    width: 48%;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    height: 194px;
+}
+
+.local_cafe_container_with_2_added_images_firstImage_container :nth-child(2) div, .local_cafe_container_with_2_added_images_secondImage_container :nth-child(2) div{
+    margin: 10px;
+}
+
+.local_cafe_container_with_2_added_images_firstImage_container img, .local_cafe_container_with_2_added_images_secondImage_container img{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.local_cafe_container_with_2_added_images_firstImage_container a, .local_cafe_container_with_2_added_images_secondImage_container a{
+    color: #524b4b;
+    text-decoration: none;
+}
+
+.local_cafe_container_with_2_added_images_firstImage_container a:hover, .local_cafe_container_with_2_added_images_secondImage_container a:hover{
+    color: #0073bb;
+}
+
+
+
+/* the eight unit styles begin here*/
+.eight_unit_container{
+    margin-top: 45px;
+    height: 480px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.eight_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.eight_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.eight_unit_container_image_container{
+ width: 38px;
+ border-radius: 5px;
+}
+
+.eight_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.eight_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.eight_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.eight_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.eight_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.jack_london_square_textContainer{
+    height: 47px;
+}
+
+.jack_london_square_textContainer div{
+    padding-top: 15px;
+}
+
+.jack_london_square_textContainer div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.jack_london_square_textContainer div a:hover{
+    text-decoration: underline;
+}
+
+.jack_london_square_image_and_likeButton_container{
+    width: 100%;
+    height: 380px;
+    margin-top: 40px;
+}
+
+.jack_london_square_image_container{
+    width: 100%;
+    height: fit-content;
+}
+
+.jack_london_square_image_container img{
+    width: 100%;
+}
+
+.jack_london_square_likeButton_container{
+    height: 35px;
+}
+
+.jack_london_square_likeButton_container div{
+    margin: 10px;
+}
+
+.jack_london_square_likeButton_container div a{
+    text-decoration: none;
+    color: #524b4b;
+}
+
+.jack_london_square_likeButton_container div a:hover{
+    color: #0073bb;
+}                                           /*the eight unit ends here*/
+/*the first column 2units ends here*/
+
+
+
+/*the second column with 2 units begins here*/
+
+.long_home_container_mainContents_container_second_column_2units{
+    height: fit-content;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -91%;
+}
+
+/* the ninth unit styles begin here*/
+.ninth_unit_container{
+    height: 500px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.ninth_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+}
+
+.ninth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.ninth_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.ninth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ninth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.ninth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.ninth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.ninth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.local_cafe_imageII_container{
+    width: fit-content;
+    height: 165px;
+}
+
+.local_cafe_imageII_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.local_cafe_text_link_otherContents_spacer{
+    height: 255px;
+    width: 95%;
+    margin: 8px;
+}
+
+.local_cafe_link_container{
+    height: 37px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.local_cafe_link_container div{
+    padding-top: 7px;
+}
+
+.local_cafe_link_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.local_cafe_link_container div a:hover{
+    text-decoration: underline;
+}
+
+.local_cafe_starRatings_container{
+    width: 100%;
+    height: 46px;
+}
+
+.local_cafe_starRatings_container div{
+    padding-top: 10px;
+}
+
+.local_cafe_starRatings_container div i{
+    color: red;
+}
+
+.local_cafe_textContainer_with_continueReadingLink{
+    margin-top: -20px;
+    height: 130px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.local_cafe_textContainer_with_continueReadingLink div{
+    line-height: 1.3em;
+    font-size: 15px;
+    height: 120px;
+}
+.local_cafe_textContainer_with_continueReadingLink div a{
+    text-decoration: none;
+    color: #0073bb;
+}
+
+.local_cafe_textContainer_with_continueReadingLink div a:hover{
+    text-decoration: underline;
+}
+
+.below_local_cafe_textContainer_with_continueReadingLink{
+    margin-top: 10px;
+}
+
+
+
+
+
+.tenth_unit_container{    /* the tenth unit styles begins here*/
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 565px;
+    margin-top: 50px;
+}
+
+.tenth_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.tenth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.tenth_unit_container_image_container{
+    width: 38px;
+    border-radius: 7px;
+}
+
+.tenth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.tenth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.tenth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.tenth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.tenth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_text_container{
+    height: 45px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_text_container div{
+    padding-top: 15px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_text_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_text_container div a:hover{
+    text-decoration: underline;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container{
+    height: 210px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container div{
+    widows: 100%;
+    height: 165px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container div img{
+    width: 100%;
+    height: 165px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container :nth-child(2){
+    height: 27px;
+    width: 70px;
+    margin: 14px 0px 0px 10px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container :nth-child(2) a{
+    text-decoration: none;
+    color: #524b4b;
+    font-size: 15px;
+}
+
+.Courtyard_by_Marriot_San_Fransisco_Dow_image_and_likeButton_container :nth-child(2) a:hover{
+    color: #0073bb;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_images_and_likeButtons_container_with_2Containers{
+    height: 195px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_first_image_container, .below_Courtyard_by_Marriot_San_Fransisco_Dow_second_image_container{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_first_image_container :nth-child(2), .below_Courtyard_by_Marriot_San_Fransisco_Dow_second_image_container :nth-child(2){
+    width: 100%;
+    height: 42px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_first_image_container :nth-child(2) div, .below_Courtyard_by_Marriot_San_Fransisco_Dow_second_image_container :nth-child(2) div{
+    margin: 8px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_first_image_container div img, .below_Courtyard_by_Marriot_San_Fransisco_Dow_second_image_container div img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_images_and_likeButtons_container_with_2Containers div a{  /*this sytles the two like buttons in the sixth unit*/
+    text-decoration: none;
+    color: #524b4b;
+    font-size: 15px;
+}
+
+.below_Courtyard_by_Marriot_San_Fransisco_Dow_images_and_likeButtons_container_with_2Containers div a:hover{
+    color: #0073bb;
+}
+
+.show_all_9_photos_below_Courtyard_by_Marriot_San_Fransisco_Dow{
+    height: 50px;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 88px;
+}
+
+.show_all_9_photos_below_Courtyard_by_Marriot_San_Fransisco_Dow a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.show_all_9_photos_below_Courtyard_by_Marriot_San_Fransisco_Dow a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/*the third column with 2 units styles begins here*/
+
+.long_home_container_mainContents_container_third_column_2units{
+    height: fit-content;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -79%;
+}
+
+.eleventh_unit_container{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 470px;
+    margin-top: 50px;
+}
+
+
+.eleventh_unit_container_image_and_span_container_spacer{
+    margin: 13px;
+    height: 47px;
+}
+
+.eleventh_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.eleventh_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.eleventh_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.eleventh_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.eleventh_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.eleventh_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.eleventh_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.miss_Saigon_image_container{
+    width: 100%;
+    height: 145px;
+    margin-top: -8px;
+}
+
+.miss_Saigon_image_container img{
+    width: 100%;
+    height: 145px;
+}
+
+.miss_Saigon_container_spacer{
+    margin: 0px 10px 10px 10px;
+    height: 270px;
+}
+
+.miss_Saigon_link_container{
+    padding-top: 15px;
+}
+
+.miss_Saigon_link_container div{
+    height: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.miss_Saigon_link_container div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.miss_Saigon_link_container div a:hover{
+    text-decoration: underline;
+}
+
+.below_miss_Saigon_starRatingContainer{
+    height: 36px;
+    width: 100%;
+}
+
+.below_miss_Saigon_starRatingContainer div{
+    padding-top: 10px;
+}
+
+.below_miss_Saigon_starRatingContainer div i{
+    color: red;
+}
+
+.below_miss_Saigon_mainTextContainer{
+    height: 130px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 1.3em;
+    font-size: 15px;
+    color: #524b4b;  /*fouth unit styles ends here*/
+}
+
+.below_miss_Saigon_mainTextContainer div a{
+    text-decoration: none;
+    color: #0073bb !important;
+}
+
+.below_miss_Saigon_mainTextContainer div a:{
+    text-decoration: underline;
+}
+
+.below_miss_Saigon_smiley_faces_conntainer{
+    margin-top: 12px;
+}
+
+
+
+/* the twelfth unit styles begin here*/
+
+.twelfth_unit_container{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+.twelfth_unit_container_image_and_span_container_spacer{
+    margin: 10px;
+    height: 47px;
+    border-bottom : 1px solid #e6e6e6;
+}
+
+.twelfth_unit_container_image_and_span_container{
+    display: inline-flex;
+    width: 70%;
+}
+
+.twelfth_unit_container_image_container{
+    width: 38px;
+    border-radius: 5px;
+}
+
+.twelfth_unit_container_image_container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.twelfth_unit_container_span_container{
+    margin-left: 10px;
+    width: 70%;
+    line-height: 1.3em;
+}
+
+.twelfth_unit_container_span_container a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.twelfth_unit_container_span_container a:hover{
+    text-decoration: underline;
+}
+
+.twelfth_unit_container_span_container span{
+    color: #333;
+    font-size: 15px;
+}
+
+.gotts_roadside_with_split_container_and_2_addedimages_linkContainer{
+    height: 45px;
+}
+
+.gotts_roadside_with_split_container_and_2_addedimages_linkContainer div{
+    padding-top: 18px;
+}
+
+.gotts_roadside_with_split_container_and_2_addedimages_linkContainer div a{
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 15px;
+}
+
+.gotts_roadside_with_split_container_and_2_addedimages_linkContainer div a:hover{
+    text-decoration: underline;
+}
+
+.gotts_roadside_container_with_2_added_images{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 195px;
+    margin-top: 0px;
+}
+
+.gotts_roadside_container_with_2_added_images_firstImage_container, .gotts_roadside_container_with_2_added_images_secondImage_container{
+    width: 48%;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    height: 194px;
+}
+
+.gotts_roadside_container_with_2_added_images_firstImage_container :nth-child(2) div, .gotts_roadside_container_with_2_added_images_secondImage_container :nth-child(2) div{
+    margin: 10px;
+}
+
+.gotts_roadside_container_with_2_added_images_firstImage_container img, .gotts_roadside_container_with_2_added_images_secondImage_container img{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.gotts_roadside_container_with_2_added_images_firstImage_container a, .gotts_roadside_container_with_2_added_images_secondImage_container a{
+    color: #524b4b;
+    text-decoration: none;
+}
+
+.gotts_roadside_container_with_2_added_images_firstImage_container a:hover, .gotts_roadside_container_with_2_added_images_secondImage_container a:hover{
+    color: #0073bb;
+}
+
+
+
+/*show more activities in san fransisco begins here*/
+
+.show_more_activities_in_San_Fransisco_container{
+    width: 100%;
+    height: 130px;
+}
+
+.show_more_activities_linkContainer{
+    width: 87%;
+    height: 60px;
+    margin-left: 7%;
+    margin-top: 25px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.show_more_activities_linkContainer div{
+    width: 30%;
+    margin: 25px 0px 0px 430px;
+}
+
+.show_more_activities_linkContainer div a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0073bb;
+}
+
+.show_more_activities_linkContainer div a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* browse businesses by category begins here*/
+.browse_businesses_by_category_main_container{
+    height: 490px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.browse_businesses_by_category_textContainer{
+    width: 30%;
+    margin-left: 35%;
+    height: 95px;
+}
+
+.browse_businesses_by_category_textContainer div h2{
+    color: rgb(182, 24, 24);
+    font-size: 23px;
+}
+
+.category_row_1_container{
+    width: 85%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 8%;
+}
+
+
+
+.restaurant_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.restaurant_category_container:hover{
+    border: 1px solid blue;
+}
+
+.restaurant_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 70px;
+    height: 115px;
+}
+
+.restaurant_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.restaurant_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.restaurant_textLink_container{
+    padding-top: 5px;
+}
+
+.restaurant_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.restaurant_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.shopping_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.shopping_category_container:hover{
+    border: 1px solid blue;
+}
+
+.shopping_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 75px;
+    height: 115px;
+}
+
+.shopping_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.shopping_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.shopping_textLink_container{
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+.shopping_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.shopping_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.nightlife_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.nightlife_category_container:hover{
+    border: 1px solid blue;
+}
+
+.nightlife_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 70px;
+    height: 115px;
+}
+
+.nightlife_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.nightlife_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.nightlife_textLink_container{
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.nightlife_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.nightlife_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.activelife_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.activelife_category_container:hover{
+    border: 1px solid blue;
+}
+
+.activelife_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 75px;
+    height: 115px;
+}
+
+.activelife_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.activelife_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.activelife_textLink_container{
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.activelife_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.activelife_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+/*the category row 2 begins here*/
+
+
+
+.category_row_2_container{
+    width: 85%;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 150px;
+    margin-left: 8%;
+    margin-top: 35px;
+}
+
+
+
+.beauty_and_spa_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.beauty_and_spa_category_container:hover{
+    border: 1px solid blue;
+}
+
+.beauty_and_spa_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 75px;
+    height: 115px;
+}
+
+.beauty_and_spa_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.beauty_and_spa_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.beauty_and_spa_textLink_container{
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.beauty_and_spa_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.beauty_and_spa_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.automotive_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.automotive_category_container:hover{
+    border: 1px solid blue;
+}
+
+.automotive_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 75px;
+    height: 115px;
+}
+
+.automotive_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.automotive_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.automotive_textLink_container{
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.automotive_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.automotive_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.home_services_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.home_services_category_container:hover{
+    border: 1px solid blue;
+}
+
+.home_services_category_image_and_link_container{
+    width: 60%;
+    margin-top: 22px;
+    margin-left: 65px;
+    height: 115px;
+}
+
+.home_services_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.home_services_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.home_services_textLink_container{
+    padding-top: 5px;
+    padding-left: 0px;
+    width: 115px;
+}
+
+.home_services_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.home_services_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+.more_categories_category_container{
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    width: 22%;
+    border-radius: 6px;
+}
+
+.more_categories_category_container:hover{
+    border: 1px solid blue;
+}
+
+.more_categories_category_image_and_link_container{
+    width: 50%;
+    margin-top: 22px;
+    margin-left: 75px;
+    height: 115px;
+}
+
+.more_categories_image_container{
+    width: 75px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.more_categories_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.more_categories_textLink_container{
+    padding-top: 5px;
+    padding-left: 0px;
+    width: 122px;
+}
+
+.more_categories_textLink_container a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.more_categories_textLink_container a:hover{
+    color: #0073bb;
+}
+
+
+
+/*the yelp mobile apps styles begin here*/
+
+.yelp_mobile_apps_and_the_mobile_devices_main_container{
+    width: 100%;
+    height: 450px;
+    margin-top: -20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.yelp_mobile_apps_primary_container{
+    width: 100%;
+    height: 120px;
+}
+
+.yelp_mobile_apps_textContainer{
+    width: fit-content;
+    margin-left: 43%;
+    padding-top: 45px;
+}
+
+.yelp_mobile_apps_textContainer h2{
+    color: rgb(204, 43, 43);
+    font-size: 23px;
+}
+
+
+.yelp_mobileDevice_primary_container{
+    width: 85%;
+    height: 330px;
+    margin-left: 8%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.yelp_mobileDevice_primary_container a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #333;
+}
+
+.yelp_mobileDevice_primary_container a:hover{
+    color: #0073bb;
+}
+
+
+.yelp_mobile_app_iPhone_iPad_and_watch_main_linkAndImagecontainer, .yelp_mobile_app_android_main_linkAndImage_container{
+    width: 48%;
+    height: 250px;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.yelp_mobile_app_iPhone_iPad_and_watch_main_linkAndImagecontainer:hover, .yelp_mobile_app_android_main_linkAndImage_container:hover{
+    border: 1px solid #0073bb;
+}
+
+.yelp_mobile_app_iPhone_iPad_and_watch_main_linkAndImagecontainer div:only-child{
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+.yelp_mobile_app_iPhone_iPad_and_watch_link_container{
+    padding-left: 47px;
+}
+
+.yelp_mobile_app_iPhone_iPad_and_watch_image_container{
+    width: fit-content;
+}
+
+.yelp_mobile_app_iPhone_iPad_and_watch_image_container img{
+    width: 290px;
+}
+
+
+
+.yelp_mobile_app_android_main_linkAndImage_container div:only-child{
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+.yelp_mobile_app_android_link_container{
+    padding-left: 112px;
+}
+
+.yelp_mobile_app_android_main_Image_container{
+    width: fit-content;
+}
+
+.yelp_mobile_app_android_main_Image_container img{
+    width: 285px;
+}                            /*the yelp mobile apps styles ends here*/
+
+
+
+
+/*  about, discover, yelp for business owners, languages styles begin here*/
+
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer{
+    width: 100%;
+    height: 630px;
+    background-color: rgb(241, 241, 241);
+}
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer_spacer{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+
+.about_and_links_container, .discover_and_links_container, .yelpForBusinessOwners_and_links_container, .languagesAndCountries_and_links_container{
+    width: 22%;
+    height: fit-content;
+}
+
+
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer_spacer h3{
+    color: rgb(182, 45, 45);
+}
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer_spacer li{
+    list-style: none;
+    line-height: 1.6em;
+}
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer_spacer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0073bb;
+}
+
+.about_discover_yelpForBusinessOwners_languagesAndCountries_mainContainer_spacer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.languages_links_container option, .countries_links_container option{
+    color: #0073bb !important;
+    border-top: 1px solid #e6e6e6 !important;
+    line-height: 1.6em;
+    overflow: scroll;
+}
+
+
+.languages_links_container {
+    border: none;
+}
+
+
+
+
+.houseImage_container{
+    width: 70%;
+    height: 200px;
+    margin-left: 14%;
+}
+
+
+.housesImage_and_copyrightText_lastcontainer{
+    margin-top: 55px;
+}
+
+.copyrightText_container{
+    margin-left: 24%;
+    margin-top: -20px;
+}
+
+.copyrightText_container p{
+    color: #524b4b;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
